@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "stack.h"
+#include "stack.h"
+#include "tokenizer.h"
+#include "infix_to_postfix.h"
 
 Stack* create_stack(int initial_capacity) {
     Stack *newStack = malloc(sizeof(Stack));

@@ -15,7 +15,7 @@ Stack* create_stack(int initial_capacity);
 void free_stack(Stack *stack);
 bool push(Stack *stack, void* value);
 bool pop(Stack *stack, void **value);
-bool peek(Stack *stack, double *value);
+bool peek(Stack *stack, void **value);
 bool is_empty(Stack *stack);
 
 #endif
